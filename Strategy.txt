@@ -37,6 +37,15 @@ pre1.processing pipeline:
 
 ###
 
+### Model training
+MVP with SGD plain and SGD RBF
+>8 hours on naive attempt
+- Note the class weights are imbalanced! => 
+
+1. Extensive use of Grid Search
+	* Benefit of CV without explicit CV set
+
+
 
 REFERENCES:
 Alperovich, G. Crimes in San-Francisco. SEMESTRAL WORK, COURSE BIA: BIO-INSPIRED ALGPRITHMS, CZECH TECHNICAL UNIVERSITY IN PRAGUE, 2016/5 1. Accessed 2018.

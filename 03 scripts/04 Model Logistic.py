@@ -75,7 +75,7 @@ clf = sk.linear_model.LogisticRegression(penalty='l2',
 ############ Parameter grid #################
 param_grid = {
     'penalty': ['l2','l1'],
-    'class_weight': [None,'balanced']
+    'class_weight': [None,'balanced'],
     #'alpha': [10 ** x for x in range(-4, -2)],
     #'l1_ratio': [ 0.15], NOT NEEDED UNLESS ELASTIC
     #'max_iter': [1000],
