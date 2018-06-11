@@ -1,0 +1,42 @@
+### Data overview
+
+Over 2 million records. 
+1. 39 Categories
+1. Descriptions
+
+### Data cleaning
+1. Identified incorrect lat/long
+1. Identified Null rows
+
+### Data transformation
+pre1.processing pipeline:
+1. Create Python datetime object from date columns
+1. Create WGS84 UTM grid entries (tuple) from lat/long
+
+### Data exploration
+1. What crimes are most common? (Bar charts)
+	* REPORT Total crime incidents.pdf
+	* REPORT Cumulative count of crime categories.pdf
+1. Temporal trends (Time series, heat maps, bar charts, animations)
+	* Yearly view of crime counts REPORT Crimes over years, 20XX - 20XX.pdf
+	* Yearly to year trends
+	* Monthly overall counts and trends
+	* Quartly trends
+	* Daily trends
+	* Hourly trends REPORT
+1. Crime trends
+	1. Drug type use
+	1. Other crime sub-categories
+1. Spatial trends
+	1. Clustering of coordinates
+	1. Transformation of coordinates (PCA?)
+	1. Rotation of coordinates
+
+### Feature engineering part 1
+1. Binar
+
+###
+
+
+REFERENCES:
+Alperovich, G. Crimes in San-Francisco. SEMESTRAL WORK, COURSE BIA: BIO-INSPIRED ALGPRITHMS, CZECH TECHNICAL UNIVERSITY IN PRAGUE, 2016/5 1. Accessed 2018.
