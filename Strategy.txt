@@ -46,6 +46,14 @@ MVP with SGD plain and SGD RBF
 	* Benefit of CV without explicit CV set
 
 
+#########
+Hey, I don't think you're doing anything wrong.
+
+It is very hard to get an accuracy higher than 30% for this problem, there are quite a few discussions on accuracy on the forum see here for example. A naive approach would be predict the most popular crime which should give you around 18% if I remember correctly. So you're right that your algorithms aren't all that better but the main reason for the is that the problem is very hard! You should get better results if you use tree based algorithms (say boosting).
+
+Keep in mind that the metric for this competition is multi-logloss so you're way better off predicting probabilities and also using the log loss score when using cross-validation in scikit learn (just do cross_val_score(model, X, y , scoring = "log_loss")) - this way you'll get a better understanding of where you'll be on the leaderboard.
+#########
+
 
 REFERENCES:
 Alperovich, G. Crimes in San-Francisco. SEMESTRAL WORK, COURSE BIA: BIO-INSPIRED ALGPRITHMS, CZECH TECHNICAL UNIVERSITY IN PRAGUE, 2016/5 1. Accessed 2018.

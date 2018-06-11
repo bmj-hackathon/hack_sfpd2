@@ -102,8 +102,8 @@ for step in data_mapper.features:
 df_trf = data_mapper.fit_transform(df.copy())
 df_trf_head = df_trf.head()
 
-#%% Split into train/test ONLY
-if 0: 
+#%% Split into train/test ONLY FULL VERSION
+if 1: 
     #train_data, validate_data = sk.cross_validation.train_test_split(res, test_size=0.15, random_state=42)
     train, test = sk.cross_validation.train_test_split(df_trf, test_size=0.20, random_state=42)
     print(len(train), len(test))
@@ -116,8 +116,8 @@ if 0:
     del train, test
 
 
-#%% Split into train/test ONLY SAMLL VERSION
-if 1: 
+#%% Split into train/test ONLY SMALL VERSION
+if 0: 
     #train_data, validate_data = sk.cross_validation.train_test_split(res, test_size=0.15, random_state=42)
     train, test = sk.cross_validation.train_test_split(df_trf, test_size=0.20, random_state=42)
     print(len(train), len(test))
@@ -173,7 +173,7 @@ del_vars =[
         "df",
         'df_head',
         "df_trf",
-        "df_trf_head",
+        #"df_trf_head",
         "step",
         "test",
         ]

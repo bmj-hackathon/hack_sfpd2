@@ -1,0 +1,108 @@
+SGD Vanilla
+Subset for Grid Search; 309790 rows
+Best grid score: -2.1498744102565923
+Best grid parameters: {'alpha': 0.001, 'class_weight': None, 'loss': 'log'}
+Predicted on test set with 77448 records
+Test set log-loss 2.1472729095744767
+Test set accurcacy 0.2842681541163103
+pred                                               act
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      BURGLARY
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     ROBBERY
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      DRUG/NARCOTIC                                      ASSAULT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      VANDALISM
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      OTHER OFFENSES                                     LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     DRUG/NARCOTIC
+Wrong      LARCENY/THEFT                                      BURGLARY
+Wrong      ASSAULT                                            VANDALISM
+Wrong      ASSAULT                                            VEHICLE THEFT
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      SUSPICIOUS OCC
+Correct    OTHER OFFENSES                                     OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      BURGLARY
+Wrong      ASSAULT                                            LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      DRUG/NARCOTIC
+Wrong      NON-CRIMINAL                                       OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      VEHICLE THEFT
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      ASSAULT                                            BURGLARY
+Wrong      LARCENY/THEFT                                      TRESPASS
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    OTHER OFFENSES                                     OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      VANDALISM
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      VEHICLE THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    OTHER OFFENSES                                     OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      VEHICLE THEFT
+Wrong      LARCENY/THEFT                                      DRUG/NARCOTIC
+Wrong      LARCENY/THEFT                                      VANDALISM
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      OTHER OFFENSES                                     ASSAULT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      OTHER OFFENSES                                     ASSAULT
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      ROBBERY
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      OTHER OFFENSES                                     VEHICLE THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      ASSAULT
+Correct    ASSAULT                                            ASSAULT
+Wrong      LARCENY/THEFT                                      VANDALISM
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      BURGLARY
+Wrong      LARCENY/THEFT                                      OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Wrong      LARCENY/THEFT                                      ROBBERY
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      NON-CRIMINAL
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      VEHICLE THEFT                                      LARCENY/THEFT
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      SUSPICIOUS OCC
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      OTHER OFFENSES                                     LARCENY/THEFT
+Wrong      ASSAULT                                            ROBBERY
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      VANDALISM
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      VEHICLE THEFT                                      OTHER OFFENSES
+Wrong      LARCENY/THEFT                                      VEHICLE THEFT
+Correct    DRUG/NARCOTIC                                      DRUG/NARCOTIC
+Wrong      LARCENY/THEFT                                      MISSING PERSON
+Correct    OTHER OFFENSES                                     OTHER OFFENSES
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Wrong      LARCENY/THEFT                                      MISSING PERSON
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      LARCENY/THEFT                                      ASSAULT
+Wrong      OTHER OFFENSES                                     DRUG/NARCOTIC
+Correct    LARCENY/THEFT                                      LARCENY/THEFT
+Correct    ASSAULT                                            ASSAULT
+Wrong      OTHER OFFENSES                                     NON-CRIMINAL

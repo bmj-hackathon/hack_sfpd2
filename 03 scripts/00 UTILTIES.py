@@ -6,20 +6,29 @@ Created on Sun Jun 10 10:32:09 2018
 @author: batman
 """
 
+
 #%% Globals
 
 LANDSCAPE_A3 = (16.53,11.69)
 PORTRAIT_A3 = (11.69,16.53)
 LANDSCAPE_A4 = (11.69,8.27)
 
-PATH_OUT = r"/home/batman/git/hack_sfpd/Out"
-PATH_OUT_KDE = r"/home/batman/git/hack_sfpd/out_kde"
 PATH_DATA_ROOT = r"/home/batman/Dropbox/DATA/04 SFPD"
-PATH_REPORTING = r"/home/batman/git/hack_sfpd/Reporting"
 
+PATH_OUT = r"/home/batman/git/hack_sfpd1/Out"
+PATH_OUT_KDE = r"/home/batman/git/hack_sfpd1/out_kde"
+PATH_REPORTING = r"/home/batman/git/hack_sfpd1/Reporting"
+PATH_MODELS = r"/home/batman/git/hack_sfpd2/models"
 TITLE_FONT = {'fontname':'helvetica'}
 #TITLE_FONT_NAME = "Arial"
 #plt.rc('font', family='Helvetica')
+
+#%%
+def strfdelta(tdelta, fmt):
+    d = {"days": tdelta.days}
+    d["hours"], rem = divmod(tdelta.seconds, 3600)
+    d["minutes"], d["seconds"] = divmod(rem, 60)
+    return fmt.format(**d)
 
 #%%
 def plot_confusion_matrix(cm, classes,
@@ -38,7 +47,7 @@ def plot_confusion_matrix(cm, classes,
 
     print(cm)
     
-    fig, ax = plt.subplots(figsize=LANDSCAPE_A3)         # Sample figsize in inches
+    fig, ax = plt.subplots(figsize=LANDSCAPE_A4)         # Sample figsize in inches
 
 
 
@@ -57,15 +66,17 @@ def plot_confusion_matrix(cm, classes,
     tick_marks = np.arange(len(classes))
     plt.xticks(tick_marks, classes, rotation=45)
     plt.yticks(tick_marks, classes)
-    plt.tight_layout()
+    #plt.tight_layout()
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
-    fmt = '.2f' if normalize else 'd'
-    thresh = cm.max() / 2.
-    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
-        plt.text(j, i, format(cm[i, j], fmt),
-                 horizontalalignment="center",
-                 color="white" if cm[i, j] > thresh else "black")
+    plt.tight_layout(pad=5)
+
+#    fmt = '.2f' if normalize else 'd'
+#    thresh = cm.max() / 2.
+#    for i, j in itertools.product(range(cm.shape[0]), range(cm.shape[1])):
+#        plt.text(j, i, format(cm[i, j], fmt),
+#                 horizontalalignment="center",
+#                 color="white" if cm[i, j] > thresh else "black")
 
 
 

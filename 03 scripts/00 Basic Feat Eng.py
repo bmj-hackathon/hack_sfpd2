@@ -134,6 +134,7 @@ del_vars =[
         "sfpd_all",
         "step",
         "total_rows",
+        
         ]
 cnt = 0
 for name in dir():

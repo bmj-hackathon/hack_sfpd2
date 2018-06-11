@@ -90,6 +90,9 @@ if 0:
 #sfpd_kag_head = sfpd_kag_all.head()
 #logging.info("Created dt column on SFPD Kaggle data".format())
 
+
+sfpd_head = sfpd_all.head()
+
 #%% DONE HERE - DELETE UNUSED
 print("******************************")
 
